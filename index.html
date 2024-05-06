@@ -1,133 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GDE - Trail Running</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="gde1.png" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="script.js" defer></script>
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> GDE - Trail Running</title>  
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="gde1.png" type="image/x-icon">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    </head>
 <body>
- <div class="container">
-        <div class="main-container">
-            <h1>PROGRAMA DE ENTRENAMIENTO GDE -Trail Running</h1>
-            <h2>Alumno: Luciano Ruíz</h2>
-        </div>
-            <h2>Objetivo mensual: Mejorar la conciencia de la técnica a la hora de correr. </h2>
-            <h2>Fase: Adquisición </h2>
-            <!--<h2 id ="pageTitle">Fecha proxima carrera:  </h2> -->
-             <p id="result"></p> 
-            <!--<p>Indicaciones previas:  </p> -->
-        
-        <div class="sub-container">
-            <h4>SEMANA 7</h4>
-            <p>Objetivo semanal: Énfasis en mantener ritmos. </p>
-            <div>
-                <h2>Entrada en calor </h2>   <p>3 vueltas x 13 repeticiones </p>
-                <div class="image-container">  
-                    <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
-                      <source src="Video1.mp4" type="video/mp4">
-                      </video>
-                  </div>
-                <div class="image-container">  
-                    <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
-                      <source src="Video2.mp4" type="video/mp4">
-                      </video>
-                  </div>
-            </div>
-        </div>
-        <div><h2> Running </h2>
-        </div>
-        <div class="column-container 1">           
-            <div class="column">
-                <h3>Dia 1</h3>        
-                <p> Martes: 11 km calle en subida. </p>
-                    <p> -3 km de menor a mayor. </p>
-                    <p> -2 km subida al Gloria por calle, bajada por calle. </p>
-                    <p> -2 km 1000 mts suave x 1000 mts ágiles. </p>
-                    <p> -4 km fuertes. </p>
-            </div>
-            <div class="column">
-                <h3>Dia 2</h3>
-                <p> Jueves: 8 km calle </p>
-                    <p> - 8 km en el mejor tiempo posible. </p>
-            </div>
-            <div class="column">
-                <h3>Dia 3</h3>        
-                <p> Sábado: 17 km casa-Gloria-San Francisco-Caballitos- Orzali-Casa. </p>
-                    <p> -3 km ágiles. </p>
-                    <p> -3 km subida al Gloria x calle, bajada por atras. </p>
-                    <p> -5 km 20" fuertes x 30" suave. </p>
-                    <p> -6 km de menos a más. </p>
-            </div>
-        </div>
-
-        <div class="small-paragraph-container">
-            <p> Método de recuperación </p>
-            <p> - Automasaje de tensores de la fasia y rodilla (3' por pierna con botella). </p>     
-        </div>
-                    
-        <div id="column-container 1">
-        <canvas id="myChart-line-1"></canvas>
-        </div>
+<div class="container">
+    <div class="main-container">
+        <h1>PROGRAMA DE ENTRENAMIENTO GDE -Trail Running</h1>
+        <h1>Alumno: Luciano Ruíz </h1>
+    </div>
+        <h2>OBJETIVO MENSUAL: Mejora de la cadencia en la subida </h2>
+        <h2>FASE: Respuesta </h2>
+        <!-- <h2 id ="pageTitle">PRÓXIMA CARRERA VALHOLL: 2024/05/10 </h2> 
+        <h2 id="result"></h2> 
+        <p>Indicaciones previas:  </p> -->
         
     <div class="sub-container">
-        <h4>SEMANA 8 </h4>
-        <p>Objetivo semanal: Sostener ritmos ágiles. </p>
-        <div>
-        <h2>Entrada en calor </h2>   <p> 3 vueltas x 13 repeticiones </p>
-            <div class="image-container">  
-                <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
-                <source src="Video3.mp4" type="video/mp4">
+         <h4>SEMANA 9 
+            <br>Objetivo semanal: Énfasis en subidas.  </h4>
+        <p>Entrada en calor </p>   
+        <p>4 vueltas x 13 repeticiones </p>
+        <div class="image-container">  
+            <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
+                <source src="Video1.mp4" type="video/mp4">
                 </video>
-            </div>
-            <div class="image-container">  
-                <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
-                <source src="Video4.mp4" type="video/mp4">
+        </div>
+        <div class="image-container">  
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+                <source src="Video2.mp4" type="video/mp4">
                 </video>
-            </div>
         </div>
     </div>
-
     <div><h2> Running </h2>
     </div>
-
     <div class="column-container 1">           
         <div class="column">
             <h3>Dia 1</h3>        
-            <p> Martes: 11 km calle.  </p>
-                <p> -2 km suave. </p>
-                <p> -3 km de menos a más. </p>
-                <p> -4 km 30" subiendo x 20" bajando. </p>
-                <p> -2 km, 1km agiles x 1km fuertes. </p>
+            <p> Martes: 10 km calle.</p>
+            <p>  -2 km menor a mayor. </p>
+            <p>  -3 km subida ágil. </p>
+            <p>  -4 km, 2,5 ritmos incómodos x 2,5 ritmos suaves. </p>
         </div>
         <div class="column">
             <h3>Dia 2</h3>
-            <p> Jueves: 13 km pasadas en calle. </p>
-                <p> -2 km de menor a mayor. </p>
-                <p> -8 km
-                    <br>*(8x300m) 300mts subida ágil x 300mts bajada controlada, calle del Cricyt. </br>
-                    <br>*(6x300m) 300mts bajada fuerte x 300 mts subida controlada, calle del Cricyt </br>
-                 </p>
-                <p> -3 km ágil en bajada. </p>
-                
+            <p> Jueves: 10 km calle. </p>
+            <p>  -2 km suave. </p>
+            <p>  -4 km de menor a mayor. </p>
+            <p>  -4 km al mejor ritmo posible. </p>
+            
         </div>
         <div class="column">
             <h3>Dia 3</h3>        
-            <p> Sábado: 20 km calle. </p>
-                <p> -3 km fuertes. </p>
-                <p> -4 km subimos fuerte 300mts x bajamos suave 50mts . </p>
-                <p> -8 km ritmo sostenido. </p>
-                <p> -5 km al mejor ritmo. </p>
+            <p> Sábado: 26 km pasadas en calle.</p>
+            <p>  -3 km de menor a mayor. </p>
+            <p>  -8 km, 8 series x 400m ágil x 600m suave. </p>
+            <p>  -3 km, 3 series x 1000m ágiles x 3' pausa pasiva. </p>
+            <p>  -2 km suave. </p>
+            <p>  -10 km pulsaciones bajas. </p>
         </div>
     </div>
 
     <div class="small-paragraph-container">
         <p> Método de recuperación </p>
-        <p> - Masaje con rolo sobre el gluteo, al final de todos los entrenos (2' 3 veces con cada lado). </p>     
+        <p> - Masaje al terminar los entrenos 2' amasamiento en cuadriceps.</p>     
+    </div>
+                    
+    <div id="column-container 1">
+        <canvas id="myChart-line-1"></canvas>
+    </div>
+        
+    <div class="sub-container">
+        <h4>SEMANA 10 
+        <br>Objetivo semanal: Énfasis en bajadas. </h4>
+        <p>Entrada en calor </p>  
+        <p> 3 vueltas x 13 repeticiones </p>
+        <div class="image-container">  
+            <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
+            <source src="Video3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="image-container">  
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+            <source src="Video4.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div><h2> Running </h2>
+    </div>
+    <div class="column-container 1">           
+        <div class="column">
+            <h3>Dia 1</h3>
+            <p> Martes: 7 km calle.  </p>
+            <p>  -2 km suave. </p>
+            <p>  -2 km fuerte. </p>
+            <p>  -3 km suave. </p>
+        </div>
+        <div class="column">
+            <h3>Dia 2</h3>        
+            <p> Jueves: 13 km suave. </p>
+            <p>  -2 km suave. </p>
+            <p>  -4 km ritmo incómodo. </p>
+            <p>  -4 km 30" fuertes x 30" suave. </p>
+            <p>  -3 km caminata rápida. </p>
+        </div>
+        <div class="column">
+            <h3>Dia 3</h3>
+            <p> Sábado: 15 km calle.</p>
+            <p>  -3 km fuertes. </p>
+            <p>  -4 km, 500m fuerte subiendo x 500m suave subiendo . </p>
+            <p>  -5 km ritmo sostenido en llano. </p>
+            <p>  -4 km al mejor ritmo en bajada. </p>
+        </div> 
+    </div>
+
+    <div class="small-paragraph-container">
+        <p> Método de recuperación </p>
+        <p> - Elongación de isquiotibiales al final de los entrenos, 10 rebotes x 8 segundos sostenido. </p>     
     </div>
           
     <div id="column-container 2">
@@ -135,7 +134,7 @@
     </div>      
 
     <div class="image-container">
-        <img class="imagen-chica" src="logo gde blanco horizontal.png" alt="Logo Gde horizontal">
+        <img class="imagen-chica" src="Montaña blanco.png" alt="Montaña Blanco">
       </div>      
 
 </div>
